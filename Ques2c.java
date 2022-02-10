@@ -10,12 +10,10 @@ class EmployeeDemo1{
     float salary=0f;
     void addDetails()  {
         Console c=System.console();
-        Scanner inp=new Scanner(System.in);
         System.out.println("Enter Name");
         name=c.readLine();
         System.out.println("Enter Id");
         id=Integer.parseInt(c.readLine());
-        inp.nextLine();//We can also add next
         System.out.println("Enter Project");
         project=c.readLine();
         System.out.println("Enter Salary");
